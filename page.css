@@ -1,0 +1,180 @@
+
+.titleLogin{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+a {
+  float: left;
+  background: #dc3545;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  text-decoration: none;
+}
+a:hover{
+  opacity: .7;
+}
+
+
+
+.login-box {
+  width: 400px;
+  height: 350px;
+  background-color: #f2f2f2;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.login-box h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.login-box label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+  outline: none;
+}
+
+body{
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.login-box input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
+
+.login-box input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.selectCheker{
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+.btnDeconnect{
+  background-color: #dc3545;
+  padding-left:15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+border: none;
+color: white;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.frame{
+width: 500px;
+}
+
+
+.modal-body iframe {
+  width: 100%;
+}
+
+.modal-body span {
+  color: #333;
+  width: 100%;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card2 {
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  
+  margin: auto;
+  margin-top: 240px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #F1916D;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.card2 h1 {
+  color: #333;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.card2:hover{
+cursor: pointer;
+opacity: 0.8;
+}
+
+
+.card2:active{
+cursor: pointer;
+opacity: 0.6;
+}

@@ -1,0 +1,176 @@
+.card {
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #F1916D;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0.3, 0.8);
+}
+
+.card h1 {
+  color: #333;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.card:hover{
+cursor: pointer;
+opacity: 0.8;
+}
+
+
+.card:active{
+cursor: pointer;
+opacity: 0.6;
+}
+
+.wrap{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+a{
+  float: right;
+  background-color: #06142E;
+}
+.block3{
+  background-color: #06142E;
+  color: white;
+}
+
+
+
+
+
+body{
+  background-color: rgb(235, 235, 235);
+}
+
+
+
+.bodyTitle{
+  margin-left: 100px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+  .bodyPage{
+    background-color:white;
+    margin-left:35px;
+    margin-right:35px;
+    height: 600px;
+   width: 1200px;
+    margin: 0 auto;
+  }
+
+.bodyTitle p{
+  margin-top: 50px;
+  margin-left: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+
+}
+
+  .table{
+    width: 1000px;
+    
+    margin-left: 30px;
+    margin: 0 auto;
+    
+  }
+
+  .btnAjoute{
+    display: block;
+    background-color: white;
+    color: #0d6efd;
+    font-weight: bold;
+    border: #0d6efd solid 1px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: background-color 0.24s;
+  }
+  .btnAjoute:hover{
+    background-color:#0d6efd ;
+    color: white;
+    opacity: 0.8;
+  }
+  .btnAjoute:active{
+    opacity: 0.6;
+  }
+
+
+
+
+.middle-section{
+  margin-right: 40px;
+  margin-left: 20px;
+    margin-top: 10px;
+  max-width: 500px;
+     flex: 1;
+    padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  
+
+}
+
+
+
+
+
+.search-button{
+  margin-left: -1px;
+  padding-right: 25px;
+  padding-left: 25px;
+  align-items: center;
+
+}
+.image-search{
+  width: 30px;
+}
+.search{ 
+  flex: 1;
+  font-size: 16px;
+  border: 1px solid ;
+  border-color: rgb(192, 192, 192);
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.12);
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+}
+.search::placeholder{
+  padding-left: 10px;
+  font-family: Roboto,Arial;
+  font-size: 15px;}
+
+  
+  .logo-compte{
+    width: 40px;
+  }
+
+  
+
